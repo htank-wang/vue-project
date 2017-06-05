@@ -1,7 +1,7 @@
 # vue-project
 vue async component test
 
-#async-component
+# async-component
 >async modules load
 
-#....
+# ....
