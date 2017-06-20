@@ -5,13 +5,14 @@
 #mockjs
 > mocks数据入口: mockjs/index.js
 > 每个页面入口文件必须增加环境判断：
+``` bash
 if (process.env.NODE_ENV === 'mock') {
-  console.log('mock环境已开启')
-  require('../../../mockjs')
+   console.log('mock环境已开启')
+   require('../../../mockjs')
 }
-
+```
 #rem计算
-=>默认将屏幕宽度10等分，1等分为1rem，以375px为基准计算$ppr，详见base.scss
+>默认将屏幕宽度10等分，1等分为1rem，以375px为基准计算$ppr，详见base.scss
 
 ## Build Setup
 
