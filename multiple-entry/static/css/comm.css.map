@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAIA,IAAK;EACH,SAAS,EAAE,IAAI",
+"sources": ["comm.scss"],
+"names": [],
+"file": "comm.css"
+}
